@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: lightblue;
     padding: 10px 0; /*top and bottom, left and right*/
 }
 
@@ -25,10 +25,10 @@ header {
 }
 
 #character_nav {
-    background-color: #675050;
-    background-image: url(../images/characters_art_mas_mob_01.jpeg);
+    background-color: #252222;
+    background-image: url(../images/summer-bg.jpeg);
     background-size: cover;
-    background-blend-mode: multiply;
+    background-blend-mode:multiply;
 }
 
 .characters {
@@ -42,17 +42,17 @@ header {
 }
 
 .characters li {
-    height: 220px;
-    background-color: black;
+    height: 270px;
+    background-color: darkgrey;
     margin: 10px 8px;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 155px 0 0 red inset;
+    box-shadow: 0 155px 0 0 rgb(51, 130, 220) inset;
     transition: box-shadow 0.2s ease-in-out;
 }
 
 .characters li:hover {
-    box-shadow: 0 220px 0 0 red inset;
+    box-shadow: 0 400px 0 0 rgb(51, 130, 220) inset;
 }
 
 .characters li h3 {
@@ -66,32 +66,32 @@ header {
 
 .sprite {
     width: 150px;
-    height: 150px;
-    background-image: url(../images/marvelSprites.jpg);
+    height: 200px;
+    background-image: url(../images/Characters.png);
 }
 
-#carol {
+#conrad {
     background-position: -150px 0;
 }
 
-#clint {
+#jeremiah {
     background-position: -300px 0;
 }
 
-#hulk {
+#susannah {
     background-position: -450px 0;
 }
 
-#thor {
+#laurel {
     background-position: -600px 0;
 }
 
-#widow {
+#steven {
     background-position: -750px 0;
 }
 
-#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
-    background-position-y: 150px;
+#belly:hover, #conrad:hover, #jeremiah:hover, #susannah:hover, #laurel:hover, #steven:hover {
+    background-position-y: 200px;
 }
 
 #instructions {
@@ -121,7 +121,7 @@ footer {
     left: 0;
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.65);
-    background-image: url(../images/Cap_LB_Bg.png);
+    background-image: url(../images/bellypng.png);
     background-repeat: no-repeat;
     background-size: 55vh;
     background-position: 40px bottom;
@@ -162,5 +162,21 @@ footer {
 }
 
 #lightbox2 {
-    background-image: url('../images/Thor_LB_Bg.png');
+    background-image: url(../images/conradpng.png);
+}
+
+#lightbox3 {
+    background-image: url(../images/jeremiahpng.png);
+}
+
+#lightbox4 {
+    background-image: url(../images/susannahpng.png);
+}
+
+#lightbox5 {
+    background-image: url(../images/Laurel.png);
+}
+
+#lightbox6 {
+    background-image: url(../images/Stevenpng.png);
 }
